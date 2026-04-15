@@ -87,7 +87,27 @@
                 Console.WriteLine("Invaild user Name or Password");
             }
 
+            // Task 5:
 
+            int balance = 1000;
+            Console.WriteLine("Enter Your withdrawal amount");
+            int amount = Convert.ToInt32(Console.ReadLine());
+
+            if (amount <= 0)
+            {
+                Console.WriteLine("Invalid Amount");
+            }
+            else if (amount > balance)
+            {
+                Console.WriteLine("Insufficient Balance");
+            }
+
+            else
+            {
+                balance -= amount;
+                Console.WriteLine("Withdrawal Successful");
+                Console.WriteLine("Remaining balance");
+            }
 
         }
     }
