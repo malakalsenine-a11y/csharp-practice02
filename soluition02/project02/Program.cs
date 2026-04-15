@@ -68,6 +68,27 @@
             {
                 Console.WriteLine("Fail");
             }
+
+            //Task4 Simple Login System:
+
+            Console.WriteLine("Enter User Name: ");
+            string userName = Console.ReadLine();
+
+            Console.WriteLine("Enter Password: ");
+            int Password = Convert.ToInt32(Console.ReadLine());
+
+            if (userName == "admin" && Password == 1234)
+            {
+                Console.WriteLine("Login Successful");
+            }
+
+            else
+            {
+                Console.WriteLine("Invaild user Name or Password");
+            }
+
+
+
         }
     }
 }
