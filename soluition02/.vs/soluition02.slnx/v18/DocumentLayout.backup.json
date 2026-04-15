@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{999A48FA-7484-48C5-A38E-290A43B954CA}|project02\\project02.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition02\\project02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{999A48FA-7484-48C5-A38E-290A43B954CA}|project02\\project02.csproj|solutionrelative:project02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF69ECE1-7BD6-2FB0-67C9-DFD44AAC2585}|project02\\project02.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition02\\project02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF69ECE1-7BD6-2FB0-67C9-DFD44AAC2585}|project02\\project02.csproj|solutionrelative:project02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "project02\\Program.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition02\\project02\\Program.cs",
               "RelativeToolTip": "project02\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T08:07:53.987Z",
               "EditorCaption": ""
