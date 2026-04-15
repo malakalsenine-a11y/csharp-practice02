@@ -163,7 +163,7 @@
 //}
 
 
-//Task 2 – Multiplication Table//
+//Task 2 – Multiplication Table (foor loop) //
 
 Console.Write("Enter your number: ");
 int number = Convert.ToInt32(Console.ReadLine());
