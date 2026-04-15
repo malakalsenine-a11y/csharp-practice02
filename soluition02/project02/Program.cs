@@ -119,7 +119,8 @@
 
 
 
-//  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  //
+//Task 1 – Day Name Printer//
+
 
 Console.Write("Enter a number from 1 to 7: ");
 int day = Convert.ToInt32(Console.ReadLine());
@@ -160,3 +161,7 @@ switch (day)
         Console.WriteLine("Invalid day number");
         break;
 }
+
+
+//Task 2 – Multiplication Table//
+
