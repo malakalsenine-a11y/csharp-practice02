@@ -25,6 +25,22 @@
             {
                 Console.WriteLine("Zero");
             }
+
+            //Task2 Evenor Odd:
+
+            Console.WriteLine("Please Enter Any Enteger Number");
+            int Num = Convert.ToInt32(Console.ReadLine());
+
+            if (Num % 2 == 0)
+            {
+                Console.WriteLine("Even Number");
+            }
+            else
+            {
+                Console.WriteLine("Odd Number");
+            }
+
+
         }
     }
 }
