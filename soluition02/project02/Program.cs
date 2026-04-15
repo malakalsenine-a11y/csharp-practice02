@@ -139,4 +139,24 @@ switch (day)
         Console.WriteLine("Wednesday");
         break;
 
+
+    case 4:
+        Console.WriteLine("Thursday");
+        break;
+
+    case 5:
+        Console.WriteLine("Friday");
+        break;
+
+    case 6:
+        Console.WriteLine("Saturday");
+        break;
+
+    case 7:
+        Console.WriteLine("Sunday");
+        break;
+
+    default:
+        Console.WriteLine("Invalid day number");
+        break;
 }
