@@ -176,5 +176,7 @@
 
 //Task 3 – Countdown Timer (while loop) //
 
+Console.Write("Enter a positive number: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
 
