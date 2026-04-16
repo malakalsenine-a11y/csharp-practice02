@@ -47,9 +47,9 @@ namespace Soluition03
 
 
 
-            #region Task4
+            #region Task3
 
-            // Task 4: ask user enter any number then check if the number is prime or no:
+            // Task 3: ask user enter any number then check if the number is prime or no:
 
             //Console.Write("Enter Any  number : ");
             //int number = Convert.ToInt32(Console.ReadLine());
@@ -82,7 +82,8 @@ namespace Soluition03
             #endregion
 
 
-            #region Task5
+            #region Task4
+
             //Random Number"
             //Random rnd = new Random();
             //int randomNumber = rnd.Next(1, 11);
@@ -109,7 +110,8 @@ namespace Soluition03
 
             #region Task5:
 
-            //Task5: Random Number with attempts 3 time only
+        //Task5: Random Number with attempts 3 time only
+
             Random rnd = new Random();
             int randomNumber = rnd.Next(1, 11);
 
@@ -134,6 +136,8 @@ namespace Soluition03
             Console.WriteLine("Game Over! The correct number was: " + randomNumber);
 
             #endregion
+
+
         }
     }
 }
