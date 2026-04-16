@@ -84,14 +84,15 @@ namespace Soluition03
 
             #region Task4
 
-            //Random Number"
+            //Task4: Random Number
+
             //Random rnd = new Random();
             //int randomNumber = rnd.Next(1, 11);
 
             //int number;
             //int attempts = 0;
 
-            //Console.WriteLine("Guess the number (1 - 10):");
+            //Console.WriteLine("enter the number (1 - 10):");
             //number = Convert.ToInt32(Console.ReadLine());
             //attempts++;
 
@@ -110,34 +111,56 @@ namespace Soluition03
 
             #region Task5:
 
-        //Task5: Random Number with attempts 3 time only
+            //Task5: Random Number with attempts 3 time only
 
-            Random rnd = new Random();
-            int randomNumber = rnd.Next(1, 11);
+            //Random rnd = new Random();
+            //int randomNumber = rnd.Next(1, 11);
 
-            int number;
-            int attempts = 0;
+            //int number;
+            //int attempts = 0;
 
-            Console.WriteLine("Guess the number (1 - 10):");
+            //Console.WriteLine("Guess the number (1 - 10):");
 
-            while (attempts < 3)
-            {
-                Console.Write("Enter number: ");
-                number = Convert.ToInt32(Console.ReadLine());
-                attempts++;
+            //while (attempts < 3)
+            //{
+            //    Console.Write("Enter number: ");
+            //    number = Convert.ToInt32(Console.ReadLine());
+            //    attempts++;
 
-                if (number == randomNumber)
-                {
-                    Console.WriteLine("Correct!");
-                    return; // يوقف البرنامج مباشرة
-                }
-            }
+            //    if (number == randomNumber)
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        return; // يوقف البرنامج مباشرة
+            //    }
+            //}
 
-            Console.WriteLine("Game Over! The correct number was: " + randomNumber);
+            //Console.WriteLine("Game Over! The correct number was: " + randomNumber);
 
             #endregion
 
+            #region Task6
 
+            //Task6:
+
+            Console.WriteLine("Enter any Word: ");
+            string word = Console.ReadLine();
+
+            string reversed = "";
+
+            for(int i = word.Length - 1; i >= 0; i--)
+            {
+                reversed += word[i];
+            }
+
+            if (word == reversed)
+            {
+                Console.WriteLine("Perfect");
+            }
+            else
+            {
+                Console.WriteLine("Wrong");
+            }
+            #endregion
         }
     }
 }
