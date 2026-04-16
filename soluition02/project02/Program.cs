@@ -176,19 +176,21 @@
 
 //Task 3 – Countdown Timer (while loop) //
 
-Console.Write("Enter a positive number: ");
-int number = Convert.ToInt32(Console.ReadLine());
+//Console.Write("Enter a positive number: ");
+//int number = Convert.ToInt32(Console.ReadLine());
 
-if (number <= 0)
-{
-    Console.WriteLine("Please enter a positive number");
-}
+//if (number <= 0)
+//{
+//    Console.WriteLine("Please enter a positive number");
+//}
 
-else
-{
-    while (number >= 1)
-    {
-        Console.WriteLine(number);
-        number--;
-    }
-}
+//else
+//{
+//    while (number >= 1)
+//    {
+//        Console.WriteLine(number);
+//        number--;
+//    }
+//}
+
+
