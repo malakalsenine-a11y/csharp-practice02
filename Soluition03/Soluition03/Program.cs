@@ -1,4 +1,6 @@
-﻿namespace Soluition03
+﻿using System.Net.Security;
+
+namespace Soluition03
 {
     internal class Program
     {
@@ -14,18 +16,33 @@
 
 
 
-           
+
             // Task 2: ask user:
-            for (int i = 1;  i <= 5; i++)
-            
+            //for (int i = 1;  i <= 5; i++)
+
+            //    {
+
+            //    Console.Write("Enter Any  number : ");
+            //    int number = Convert.ToInt32(Console.ReadLine());
+            //}
+
+
+            // Task 3: loop inside loop:
+
+            for( int x = 1; x < 5; x++)
+            {
+                for (int i = 0; i < 3; i++)
                 {
+                    Console.WriteLine($"({x}.{i}) ");
 
-                Console.Write("Enter Any  number : ");
-                int number = Convert.ToInt32(Console.ReadLine());
+                }
+
+                Console.WriteLine();
             }
+
+
+
             
-
-
         }
     }
 }
