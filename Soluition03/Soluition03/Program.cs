@@ -29,20 +29,37 @@ namespace Soluition03
 
             // Task 3: loop inside loop:
 
-            for( int x = 1; x < 5; x++)
+            //for( int x = 1; x < 5; x++)
+            //{
+            //    for (int i = 0; i < 3; i++)
+            //    {
+            //        Console.WriteLine($"({x}.{i}) ");
+
+            //    }
+
+            //    Console.WriteLine();
+            //}
+
+
+
+            // Task 4: ask user enter any number then check if the number is prime or no:
+
+               Console.Write("Enter Any  number : ");
+               int number = Convert.ToInt32(Console.ReadLine());
+
+            bool isPrime = true;
+
+            for(int i = 2; i < number; i++)
             {
-                for (int i = 0; i < 3; i++)
+                if (number % i == 0)
                 {
-                    Console.WriteLine($"({x}.{i}) ");
-
+                    isPrime = false;
+                    break;
                 }
-
-                Console.WriteLine();
             }
 
 
 
-            
         }
     }
 }
