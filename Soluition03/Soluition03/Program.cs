@@ -58,8 +58,19 @@ namespace Soluition03
                 }
             }
 
+            if(number <= 1)
+            {
+                isPrime = false;
+            }
 
-
+            if (isPrime)
+            {
+                Console.WriteLine("Prime");
+            }
+            else
+            {
+                Console.WriteLine("Not Prime");
+            }
         }
     }
 }
