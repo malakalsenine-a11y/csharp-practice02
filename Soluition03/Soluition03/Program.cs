@@ -141,18 +141,18 @@ namespace Soluition03
             #region Task6
 
             //Task6:
-
+            //كلمة تنقرا من الجهتين بنفس القراءه
             Console.WriteLine("Enter any Word: ");
-            string word = Console.ReadLine();
+            string x = Console.ReadLine();
 
-            string reversed = "";
+            string y = "";
 
-            for(int i = word.Length - 1; i >= 0; i--)
+            for(int i = x.Length - 1; i >= 0; i--)
             {
-                reversed += word[i];
+                y += x[i];
             }
 
-            if (word == reversed)
+            if (x == y)
             {
                 Console.WriteLine("Perfect");
             }
