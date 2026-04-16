@@ -84,6 +84,32 @@ namespace Soluition03
 
             #region Task5
             //Random Number"
+            //Random rnd = new Random();
+            //int randomNumber = rnd.Next(1, 11);
+
+            //int number;
+            //int attempts = 0;
+
+            //Console.WriteLine("Guess the number (1 - 10):");
+            //number = Convert.ToInt32(Console.ReadLine());
+            //attempts++;
+
+            //while (number != randomNumber)
+            //{
+            //    Console.WriteLine("Incorrect Number, Try Again:");
+            //    number = Convert.ToInt32(Console.ReadLine());
+            //    attempts++;
+            //}
+
+            //Console.WriteLine("Correct!");
+            //Console.WriteLine("Attempts: " + attempts);
+
+            #endregion
+
+
+            #region Task5:
+
+            //Task5: Random Number with attempts 3 time only
             Random rnd = new Random();
             int randomNumber = rnd.Next(1, 11);
 
@@ -91,18 +117,21 @@ namespace Soluition03
             int attempts = 0;
 
             Console.WriteLine("Guess the number (1 - 10):");
-            number = Convert.ToInt32(Console.ReadLine());
-            attempts++;
 
-            while (number != randomNumber)
+            while (attempts < 3)
             {
-                Console.WriteLine("Incorrect Number, Try Again:");
+                Console.Write("Enter number: ");
                 number = Convert.ToInt32(Console.ReadLine());
                 attempts++;
+
+                if (number == randomNumber)
+                {
+                    Console.WriteLine("Correct!");
+                    return; // يوقف البرنامج مباشرة
+                }
             }
 
-            Console.WriteLine("Correct!");
-            Console.WriteLine("Attempts: " + attempts);
+            Console.WriteLine("Game Over! The correct number was: " + randomNumber);
 
             #endregion
         }
