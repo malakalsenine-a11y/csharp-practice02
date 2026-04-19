@@ -241,24 +241,54 @@
 
 #region Task5: Sum of Even and Odd Numbers
 
-Console.Write("Enter a positive number: ");
-int n = Convert.ToInt32(Console.ReadLine());
+//Console.Write("Enter a positive number: ");
+//int n = Convert.ToInt32(Console.ReadLine());
 
-int evenSum = 0;
-int oddSum = 0;
+//int evenSum = 0;
+//int oddSum = 0;
 
-for (int i = 1; i <= n; i++)
+//for (int i = 1; i <= n; i++)
+//{
+//    if (i % 2 == 0)
+//    {
+//        evenSum += i;
+//    }
+//    else
+//    {
+//        oddSum += i;
+//    }
+//}
+
+//Console.WriteLine("Sum of even numbers: " + evenSum);
+//Console.WriteLine("Sum of odd numbers: " + oddSum);
+#endregion
+
+#region Task6: Password Retry System
+string correctPassword = "1234";
+int attempts = 0;
+int maxAttempts = 3;
+
+while (attempts < maxAttempts)
 {
-    if (i % 2 == 0)
+    Console.Write("Enter password: ");
+    string input = Console.ReadLine();
+
+    if (input == correctPassword)
     {
-        evenSum += i;
+        Console.WriteLine("Access Granted");
+        break;
+    }
+
+    attempts++;
+
+    if (attempts == maxAttempts)
+    {
+        Console.WriteLine("Account Locked");
     }
     else
     {
-        oddSum += i;
+        Console.WriteLine("Wrong password, try again");
+        Console.WriteLine("Attempts remaining: " + (maxAttempts - attempts));
     }
 }
-
-Console.WriteLine("Sum of even numbers: " + evenSum);
-Console.WriteLine("Sum of odd numbers: " + oddSum);
 #endregion
