@@ -118,7 +118,7 @@
 
 
 
-
+#region Task1: Day Name Printer
 //Task 1 – Day Name Printer//
 
 
@@ -163,6 +163,11 @@
 //}
 
 
+#endregion
+
+
+
+#region Task2: Multiplication Table (foor loop)
 //Task 2 – Multiplication Table (foor loop) //
 
 //Console.Write("Enter your number: ");
@@ -172,8 +177,10 @@
 //{
 //    Console.WriteLine(number + "*" + i + "=" + (number * i));
 //}
+#endregion
 
 
+#region Task3: Countdown Timer (while loop)
 //Task 3 – Countdown Timer (while loop) //
 
 //Console.Write("Enter a positive number: ");
@@ -192,5 +199,7 @@
 //        number--;
 //    }
 //}
+#endregion
+
 
 
