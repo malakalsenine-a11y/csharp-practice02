@@ -4,10 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
 
 
+            #region Compilation Type Error
+            int say(int x, int y)
+            {
+                return x + y;
+            }
 
+            say(45);
+
+            #endregion
 
         }
     }
