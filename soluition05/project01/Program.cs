@@ -41,13 +41,34 @@
             #endregion
 
             #region Task2:
-            int[] numbers = { 1, 20, 3, 40, 5 };
-            foreach (int i in numbers)
+            //int[] numbers = { 1, 20, 3, 40, 5 };
+            //foreach (int i in numbers)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+
+            #endregion
+
+            #region Task3:
+            int[] num = new int[5];
+            
+                for(int i=0; i< num.Length; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"Enter Number {i + 1}: ");
+                num[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            int max = num[0];
+            for (int i = 1; i < num.Length; i++)
+            {
+                if (num[i] > max)
+                {
+                    max = num[i];
+                }
             }
 
-          
+            Console.WriteLine("The max number is : " + max);
 
             #endregion
 
