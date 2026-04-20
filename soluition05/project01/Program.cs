@@ -52,7 +52,7 @@
             #endregion
 
             #region Task3:
-
+            //Task5:
             //int[] num = new int[5];
 
             //    for(int i=0; i< num.Length; i++)
@@ -74,28 +74,54 @@
             #endregion
 
             #region Task4:
-            int[] number = new int[10];
-            
-            for(int x =0; x < number.Length; x++)
+            //Task7:
+
+            //int[] number = new int[10];
+
+            //for(int x =0; x < number.Length; x++)
+            //{
+            //    Console.WriteLine("Enter Your Number: ");
+            //    number[x] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("Even numbers are: ");   
+
+            //for (int x = 0; x < number.Length; x++)
+            //{
+            //    if (number[x] % 2 == 0)
+            //    {
+            //        Console.WriteLine(number[x]);
+            //    }
+            //}
+
+
+
+            #endregion
+
+            #region Task5:
+            //Task6:
+
+            int[] number = new int[6];
+
+            for (int x = 0; x < number.Length; x++)
             {
                 Console.WriteLine("Enter Your Number: ");
                 number[x] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.WriteLine("Even numbers are: ");   
-            
-            for (int x = 0; x < number.Length; x++)
+            int min = number[0];
+            for (int x = 1; x < number.Length; x++)
             {
-                if (number[x] % 2 == 0)
+                if (number[x] < min)
                 {
-                    Console.WriteLine(number[x]);
+                    min = number[x];
+
                 }
             }
 
-            
-            
-            #endregion
+            Console.WriteLine("The Min numbers is: " + min);
 
+            #endregion
 
 
         }
