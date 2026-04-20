@@ -32,12 +32,23 @@
 
             #region Task1:
 
-            int[] numbers = {10,20,30,40,50};
+            //int[] numbers = {10,20,30,40,50};
 
-            for (int x=0; x<numbers.Length; x++)
+            //for (int x=0; x<numbers.Length; x++)
+            //{
+            //    Console.WriteLine(numbers[x]);
+            //}
+            #endregion
+
+            #region Task2:
+            int[] numbers = { 1, 20, 3, 40, 5 };
+            foreach (int i in numbers)
             {
-                Console.WriteLine(numbers[x]);
+                Console.WriteLine(i);
             }
+
+          
+
             #endregion
 
 
