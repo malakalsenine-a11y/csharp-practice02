@@ -1,4 +1,6 @@
-﻿namespace project01
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace project01
 {
     internal class Program
     {
@@ -101,25 +103,44 @@
             #region Task5:
             //Task6:
 
-            int[] number = new int[6];
+            //int[] number = new int[6];
 
-            for (int x = 0; x < number.Length; x++)
+            //for (int x = 0; x < number.Length; x++)
+            //{
+            //    Console.WriteLine("Enter Your Number: ");
+            //    number[x] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //int min = number[0];
+            //for (int x = 1; x < number.Length; x++)
+            //{
+            //    if (number[x] < min)
+            //    {
+            //        min = number[x];
+
+            //    }
+            //}
+
+            //Console.WriteLine("The Min numbers is: " + min);
+
+            #endregion
+
+            #region Task6:
+            //Task4:
+
+            int[] num = new int[5];
+            for( int i = 0; i <num.Length; i++)
             {
-                Console.WriteLine("Enter Your Number: ");
-                number[x] = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter Number :");
+                num[i] = Convert.ToInt32 (Console.ReadLine());
             }
 
-            int min = number[0];
-            for (int x = 1; x < number.Length; x++)
+            int sum = num[0];
+            for(int x = 1; x < num.Length; x++)
             {
-                if (number[x] < min)
-                {
-                    min = number[x];
-
-                }
+                sum += num[x];
             }
-
-            Console.WriteLine("The Min numbers is: " + min);
+            Console.WriteLine("The Sum is: " + sum);
 
             #endregion
 
