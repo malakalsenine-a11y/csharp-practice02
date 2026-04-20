@@ -128,20 +128,40 @@ namespace project01
             #region Task6:
             //Task4:
 
-            int[] num = new int[5];
-            for( int i = 0; i <num.Length; i++)
+            //int[] num = new int[5];
+            //for( int i = 0; i <num.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number :");
+            //    num[i] = Convert.ToInt32 (Console.ReadLine());
+            //}
+
+            //int sum = num[0];
+            //for(int x = 1; x < num.Length; x++)
+            //{
+            //    sum += num[x];
+            //}
+            //Console.WriteLine("The Sum is: " + sum);
+
+            #endregion
+
+            #region Task7:
+            //Tsak8:
+
+            int[] numbers = new int[5];
+            for(int i =0; i<numbers.Length; i++)
             {
-                Console.WriteLine("Enter Number :");
-                num[i] = Convert.ToInt32 (Console.ReadLine());
+                Console.WriteLine("Enter any numbers: ");
+                numbers[i] = Convert.ToInt32 (Console.ReadLine());
             }
 
-            int sum = num[0];
-            for(int x = 1; x < num.Length; x++)
+            int sum = 0;
+            for (int i =0; i < numbers.Length; i++)
             {
-                sum += num[x];
+                sum += numbers[i];
             }
-            Console.WriteLine("The Sum is: " + sum);
 
+            double average = (double)sum / numbers.Length;
+            Console.WriteLine("The Average Numbers is: " + average);
             #endregion
 
 
