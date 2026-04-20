@@ -167,6 +167,25 @@ namespace project01
             #region Task8:
             //Task9:
 
+            //int[] numbers = new int[5];
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.Write("Enter number: ");
+            //    numbers[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("Reversed numbers:");
+
+            //for (int i = numbers.Length - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+            #endregion
+
+            #region Task9:
+            //Task10:
+
             int[] numbers = new int[5];
 
             for (int i = 0; i < numbers.Length; i++)
@@ -175,12 +194,29 @@ namespace project01
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.WriteLine("Reversed numbers:");
+            Console.Write("Enter number to search: ");
+            int search = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = numbers.Length - 1; i >= 0; i--)
+            bool found = false;
+
+        
+            for (int i = 0; i < numbers.Length; i++)
             {
-                Console.WriteLine(numbers[i]);
+                if (numbers[i] == search)
+                {
+                    Console.WriteLine("Number found at index " + i);
+                    found = true;
+                    break;
+                }
             }
+
+           
+            if (!found)
+            {
+                Console.WriteLine("Number not found");
+            }
+
+
             #endregion
 
 
