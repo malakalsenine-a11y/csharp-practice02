@@ -52,28 +52,52 @@
             #endregion
 
             #region Task3:
-            int[] num = new int[5];
+
+            //int[] num = new int[5];
+
+            //    for(int i=0; i< num.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number: ");
+            //    num[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //int max = num[0];
+            //for (int i = 1; i < num.Length; i++)
+            //{
+            //    if (num[i] > max)
+            //    {
+            //        max = num[i];
+            //    }
+            //}
+
+            //Console.WriteLine("The max number is : " + max);
+
+            #endregion
+
+            #region Task4:
+            int[] number = new int[10];
             
-                for(int i=0; i< num.Length; i++)
+            for(int x =0; x < number.Length; x++)
             {
-                Console.WriteLine($"Enter Number {i + 1}: ");
-                num[i] = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter Your Number: ");
+                number[x] = Convert.ToInt32(Console.ReadLine());
             }
-            int max = num[0];
-            for (int i = 1; i < num.Length; i++)
+
+            Console.WriteLine("Even numbers are: ");   
+            
+            for (int x = 0; x < number.Length; x++)
             {
-                if (num[i] > max)
+                if (number[x] % 2 == 0)
                 {
-                    max = num[i];
+                    Console.WriteLine(number[x]);
                 }
             }
 
-            Console.WriteLine("The max number is : " + max);
-
+            
+            
             #endregion
 
 
 
         }
-        }
+    }
 }
