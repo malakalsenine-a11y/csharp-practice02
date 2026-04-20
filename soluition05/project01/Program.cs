@@ -186,6 +186,42 @@ namespace project01
             #region Task9:
             //Task10:
 
+            //int[] numbers = new int[5];
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.Write("Enter number: ");
+            //    numbers[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //Console.Write("Enter number to search: ");
+            //int search = Convert.ToInt32(Console.ReadLine());
+
+            //bool found = false;
+
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] == search)
+            //    {
+            //        Console.WriteLine("Number found at index " + i);
+            //        found = true;
+            //        break;
+            //    }
+            //}
+
+
+            //if (!found)
+            //{
+            //    Console.WriteLine("Number not found");
+            //}
+
+
+            #endregion
+
+            #region Task10:
+            //Task3:
+
             int[] numbers = new int[5];
 
             for (int i = 0; i < numbers.Length; i++)
@@ -194,28 +230,12 @@ namespace project01
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.Write("Enter number to search: ");
-            int search = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Numbers are:");
 
-            bool found = false;
-
-        
             for (int i = 0; i < numbers.Length; i++)
             {
-                if (numbers[i] == search)
-                {
-                    Console.WriteLine("Number found at index " + i);
-                    found = true;
-                    break;
-                }
+                Console.WriteLine(numbers[i]);
             }
-
-           
-            if (!found)
-            {
-                Console.WriteLine("Number not found");
-            }
-
 
             #endregion
 
