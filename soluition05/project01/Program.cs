@@ -16,12 +16,13 @@
 
             #region string array:
 
-            int[] age = new int[4];
-            for (int x = 0; x < age.Length; x++)
+            int[] number = new int[4];
+            for (int x = 0; x < number.Length; x++)
             {
-                Console.WriteLine("Enter your age: ");
-                age[x] = Convert.ToInt32(Console.ReadLine());
-                foreach (int y in age)
+                Console.WriteLine("Enter your number: ");
+
+                number[x] = Convert.ToInt32(Console.ReadLine());
+                foreach (int y in number)
                 {
                     Console.WriteLine(y);
                 }
