@@ -6,30 +6,42 @@
         {
 
             #region array
-            int[] num = { 1, 2, 3, 4, 5, 6 };
-            foreach (int X in num)
-            {
-                Console.WriteLine(X);
-            }
+            //int[] num = { 1, 2, 3, 4, 5, 6 };
+            //foreach (int X in num)
+            //{
+            //    Console.WriteLine(X);
+            //}
 
             #endregion
 
             #region string array:
 
-            int[] number = new int[4];
-            for (int x = 0; x < number.Length; x++)
-            {
-                Console.WriteLine("Enter your number: ");
+            //int[] number = new int[4];
+            //for (int x = 0; x < number.Length; x++)
+            //{
+            //    Console.WriteLine("Enter your number: ");
 
-                number[x] = Convert.ToInt32(Console.ReadLine());
-                foreach (int y in number)
-                {
-                    Console.WriteLine(y);
-                }
+            //    number[x] = Convert.ToInt32(Console.ReadLine());
+            //    foreach (int y in number)
+            //    {
+            //        Console.WriteLine(y);
+            //    }
+            //}
 
             #endregion
 
+            #region Task1:
+
+            int[] numbers = {10,20,30,40,50};
+
+            for (int x=0; x<numbers.Length; x++)
+            {
+                Console.WriteLine(numbers[x]);
             }
+            #endregion
+
+
+
         }
-    }
+        }
 }
