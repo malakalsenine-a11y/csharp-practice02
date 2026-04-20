@@ -147,21 +147,40 @@ namespace project01
             #region Task7:
             //Tsak8:
 
+            //int[] numbers = new int[5];
+            //for(int i =0; i<numbers.Length; i++)
+            //{
+            //    Console.WriteLine("Enter any numbers: ");
+            //    numbers[i] = Convert.ToInt32 (Console.ReadLine());
+            //}
+
+            //int sum = 0;
+            //for (int i =0; i < numbers.Length; i++)
+            //{
+            //    sum += numbers[i];
+            //}
+
+            //double average = (double)sum / numbers.Length;
+            //Console.WriteLine("The Average Numbers is: " + average);
+            #endregion
+
+            #region Task8:
+            //Task9:
+
             int[] numbers = new int[5];
-            for(int i =0; i<numbers.Length; i++)
+
+            for (int i = 0; i < numbers.Length; i++)
             {
-                Console.WriteLine("Enter any numbers: ");
-                numbers[i] = Convert.ToInt32 (Console.ReadLine());
+                Console.Write("Enter number: ");
+                numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            int sum = 0;
-            for (int i =0; i < numbers.Length; i++)
-            {
-                sum += numbers[i];
-            }
+            Console.WriteLine("Reversed numbers:");
 
-            double average = (double)sum / numbers.Length;
-            Console.WriteLine("The Average Numbers is: " + average);
+            for (int i = numbers.Length - 1; i >= 0; i--)
+            {
+                Console.WriteLine(numbers[i]);
+            }
             #endregion
 
 
