@@ -40,6 +40,8 @@
 
             string[] names = new string[5];
 
+            Console.WriteLine("--- Part 1: Student Names ---");
+
 
             for (int i = 0; i < 5; i++)
             {
@@ -62,6 +64,9 @@
             int[,] grades = new int[5, 3];
 
             string[] subjects = { "Math", "Science", "English" };
+
+            Console.WriteLine("--- Part 2: Student Grades ---");
+
 
             for (int i = 0; i < 5; i++)
             {
@@ -87,14 +92,46 @@
 
                 Console.WriteLine();
             }
-        
+
+
+            #endregion
+
+            #region Part 3 – Display Student Grades
+            Console.WriteLine("--- Part 3: Student Grades Table ---");
+
+            for (int j = 0; j < 3; j++)
+            {
+                Console.Write(subjects[j] + "/t");
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("------------------------------------------");
+
+            // البيانات
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write(names[i] + "");
+
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write(grades[i, j] + "|");
+                   
+
+                }
+
+                Console.WriteLine();
+            }
+
 
             #endregion
 
 
 
 
-}
+
+
         }
+    }
     }
 
