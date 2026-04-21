@@ -186,6 +186,31 @@
 
             #endregion
 
+            #region Part 6 – Search for Student
+
+            Console.WriteLine("Enter students name to search: ");
+            string searchName = Console.ReadLine();
+
+            bool found = false;
+
+            for (int i = 0; i < names.Length; i++)
+            {
+                if (names[i].ToLower() == searchName.ToLower())
+                {
+                    Console.WriteLine($"Student found at index: {i}");
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("Student not found.");
+            }
+
+
+            #endregion
+
 
 
 
