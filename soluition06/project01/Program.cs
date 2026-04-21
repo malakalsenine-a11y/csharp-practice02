@@ -211,6 +211,26 @@
 
             #endregion
 
+            #region Part 7 – Find Highest Grade
+
+            int maxGrade = grades[0, 0]; // نبدأ بأول قيمة
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (grades[i, j] > maxGrade)
+                    {
+                        maxGrade = grades[i, j];
+                    }
+                }
+            }
+
+            Console.WriteLine($"\nHighest Grade in the system = {maxGrade}");
+
+
+            #endregion
+
 
 
 
