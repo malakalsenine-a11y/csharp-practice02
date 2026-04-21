@@ -23,7 +23,17 @@
 
             }
 
-    
+            Console.WriteLine("The Number of Array is:");
+            for (int x = 0; x < rows; x++)
+            {
+                for (int i = 0; i < columns; i++)
+                {
+                    Console.Write(numbers[x, i] + " ");
+                }
+                Console.WriteLine();
+            }
+
+
         }
     }
 }
