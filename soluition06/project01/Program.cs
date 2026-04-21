@@ -147,6 +147,45 @@
 
             #endregion
 
+            #region Part 5 – Jagged Array:
+
+            int students = 5;
+            int[][] jaggedGrades = new int[students][];
+
+            for (int i = 0; i < students; i++)
+            {
+                Console.Write($"How many subjects for {names[i]}? ");
+                int subjectCount = Convert.ToInt32(Console.ReadLine());
+
+                jaggedGrades[i] = new int[subjectCount];
+
+                for (int j = 0; j < subjectCount; j++)
+                {
+                    Console.Write($"Enter grade for subject {j + 1}: ");
+                    jaggedGrades[i][j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+
+            // ================= عرض النتائج =================
+            Console.WriteLine("--- Jagged Array Output ---");
+
+            for (int i = 0; i < students; i++)
+            {
+                Console.WriteLine($"\nStudent: {names[i]}");
+                Console.WriteLine($"Number of subjects: {jaggedGrades[i].Length}");
+
+                Console.Write("Grades: ");
+
+                for (int j = 0; j < jaggedGrades[i].Length; j++)
+                {
+                    Console.Write(jaggedGrades[i][j] + " ");
+                }
+
+                Console.WriteLine();
+            }
+
+            #endregion
+
 
 
 
