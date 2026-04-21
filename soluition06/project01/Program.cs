@@ -38,6 +38,19 @@
 
             #region Part01 - Student Names:
 
+            string[] student = new string[5];
+
+            for (int x = 0; x < student.Length; x++ )
+            {
+                Console.WriteLine("Enter Name for the students : ");
+                student[x] = Console.ReadLine();
+            }
+
+            Console.WriteLine("Students Name ;");
+            for (int x = 0; x < student.Length; x++ )
+            {
+                Console.WriteLine(student[x]);
+            }
 
             #endregion
 
