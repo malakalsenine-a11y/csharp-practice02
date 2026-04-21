@@ -97,13 +97,14 @@
             #endregion
 
             #region Part 3 – Display Student Grades
-            Console.WriteLine("--- Part 3: Student Grades Table ---");
+            Console.WriteLine("\n--- Part 3: Student Grades Table ---");
 
+            // Header (عناوين الجدول)
             Console.Write("Name\t\t");
 
             for (int j = 0; j < 3; j++)
             {
-                Console.Write(subjects[j] + "/t");
+                Console.Write(subjects[j] + "\t");
             }
 
             Console.WriteLine();
@@ -117,9 +118,7 @@
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.Write(grades[i, j] + "/t");
-                   
-
+                    Console.Write(grades[i, j] + "\t");
                 }
 
                 Console.WriteLine();
@@ -147,6 +146,7 @@
             }
 
             #endregion
+
 
 
 
