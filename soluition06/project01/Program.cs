@@ -99,6 +99,8 @@
             #region Part 3 – Display Student Grades
             Console.WriteLine("--- Part 3: Student Grades Table ---");
 
+            Console.Write("Name\t\t");
+
             for (int j = 0; j < 3; j++)
             {
                 Console.Write(subjects[j] + "/t");
@@ -111,11 +113,11 @@
             // البيانات
             for (int i = 0; i < 5; i++)
             {
-                Console.Write(names[i] + "");
+                Console.Write(names[i] + "\t\t");
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.Write(grades[i, j] + "|");
+                    Console.Write(grades[i, j] + "/t");
                    
 
                 }
@@ -123,6 +125,26 @@
                 Console.WriteLine();
             }
 
+
+            #endregion
+
+            #region Part 4 – Calculate Student Average
+
+            Console.WriteLine("--- Part 4: Student Averages ---");
+
+            for (int i = 0; i < 5; i++)
+            {
+                int sum = 0;
+
+                for (int j = 0; j < 3; j++)
+                {
+                    sum += grades[i, j];
+                }
+
+                double average = sum / 3.0;
+
+                Console.WriteLine($"{names[i]} Average = {average}");
+            }
 
             #endregion
 
