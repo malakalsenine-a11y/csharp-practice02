@@ -11,7 +11,23 @@ namespace project01
 
         static void Calculator()
         {
+            char again = 'y';
 
-        }
+            do
+            {
+                Console.Write("Enter first number: ");
+                double num1 = Convert.ToDouble(Console.ReadLine());
+
+                Console.Write("Enter second number: ");
+                double num2 = Convert.ToDouble(Console.ReadLine());
+
+                Console.Write("Choose operation (+ - * /): ");
+                char op = Convert.ToChar(Console.ReadLine());
+
+                double result = 0;
+
+               
+        
+    }
     }
 }
