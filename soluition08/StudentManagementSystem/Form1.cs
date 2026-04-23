@@ -18,6 +18,7 @@ namespace StudentManagementSystem
         public Form1()
         {
             InitializeComponent();
+            this.BackColor = Color.LightSteelBlue;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -33,6 +34,20 @@ namespace StudentManagementSystem
         private void TxtName_Load(object sender, EventArgs e)
         {
 
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            btnAdd.BackColor = Color.MediumSeaGreen;
+            btnAdd.ForeColor = Color.White;
+
+            btnDelete.BackColor = Color.IndianRed;
+            btnDelete.ForeColor = Color.White;
+
+            btnSearch.BackColor = Color.DodgerBlue;
+            btnSearch.ForeColor = Color.White;
+
+            btnShowAll.BackColor = Color.DarkSlateBlue;
+            btnShowAll.ForeColor = Color.White;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)

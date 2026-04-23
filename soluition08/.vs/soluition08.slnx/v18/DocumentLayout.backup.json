@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition08\\studentmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\studentmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition08\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\studentmanagementsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition08\\studentmanagementsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,27 +36,27 @@
               "RelativeDocumentMoniker": "StudentManagementSystem\\Form1.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Form1.cs",
               "RelativeToolTip": "StudentManagementSystem\\Form1.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T07:31:17.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Program.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Program.cs",
               "RelativeToolTip": "StudentManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T07:08:49.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Student.cs",
