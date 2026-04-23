@@ -56,7 +56,12 @@ namespace project01
                         break;
                 }
 
-                
+                Console.WriteLine("Result = " + result);
+
+                Console.WriteLine("Do you want to try again? (y/n): ");
+                again = Convert.ToChar(Console.ReadLine());
+
+            } while (again == 'y' || again == 'Y');
 
         }
     }
