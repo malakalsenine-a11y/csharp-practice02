@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{883F4C3E-F279-4E2A-B9B9-11ADDB2C3330}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition08\\project01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883F4C3E-F279-4E2A-B9B9-11ADDB2C3330}|project01\\project01.csproj|solutionrelative:project01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition08\\studentmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition08\\studentmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition08\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\malak\\onedrive\\desktop\\soluition\\soluition08\\studentmanagementsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD44EFC8-6280-4B9A-A498-47D24463B16D}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\project01\\Program.cs",
-              "RelativeDocumentMoniker": "project01\\Program.cs",
-              "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\project01\\Program.cs",
-              "RelativeToolTip": "project01\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Form1.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Form1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T04:30:54.145Z",
+              "WhenOpened": "2026-04-23T07:31:17.428Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Program.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:08:49.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Student.cs",
+              "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Student.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:51:13.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\soluition\\soluition08\\StudentManagementSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "StudentManagementSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:30:23.03Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

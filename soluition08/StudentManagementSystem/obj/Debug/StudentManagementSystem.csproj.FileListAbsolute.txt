@@ -1,0 +1,10 @@
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\obj\Debug\StudentManagementSystem.Form1.resources
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe.config
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\bin\Debug\StudentManagementSystem.pdb
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\obj\Debug\StudentManagementSystem.exe
+C:\Users\malak\OneDrive\Desktop\soluition\soluition08\StudentManagementSystem\obj\Debug\StudentManagementSystem.pdb
