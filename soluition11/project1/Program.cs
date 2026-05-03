@@ -2,9 +2,29 @@
 {
     internal class Program
     {
+
+        static int Sum(int a, int b)
+        {
+            return a + b;
+        }
+
+        static int Sum(int a, int b, int c)
+        {
+            return a + b + c;
+        }
+
+        static int Sum(int a, int b, int c, int d)
+        {
+            return a + b + c + d;
+        }
+
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+                Console.WriteLine(Sum(5, 10));          
+                Console.WriteLine(Sum(1, 2, 3));        
+                Console.WriteLine(Sum(2, 4, 6, 8));
+            
         }
     }
 }
